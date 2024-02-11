@@ -16,3 +16,17 @@ The system consists of the following microservices:
 ## Setup Instructions
 1. Clone the repository:
 
+
+## Additional Components
+The system also includes the following components:
+
+- **PostgreSQL Database**: Stores data related to patients, doctors, appointments, and medical records.
+- **MongoDB Database**: Stores data related to billing and payments.
+- **Grafana**: Used for monitoring and visualizing metrics collected by Prometheus.
+- **Prometheus**: Collects and stores metrics from the microservices.
+- **API Gateway**: Routes requests to the appropriate microservices and handles load balancing.
+- **Message Broker (Kafka or RabbitMQ)**: Facilitates communication between microservices and ensures message delivery.
+
+## Documentation
+For detailed documentation, including API specifications, database schema, and deployment guides, refer to the `/docs` directory.
+
